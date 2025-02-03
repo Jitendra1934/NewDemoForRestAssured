@@ -3,11 +3,11 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="PunnamJItendra.NewRestAssuredDemo.APITGetNonBddStyle">
+      <class name="PostRequest.ApiPost002">
         <methods>
-          <include name="nonBddStylePositive"/>
+          <include name="New_PostReqNonBDD"/>
         </methods>
-      </class> <!-- PunnamJItendra.NewRestAssuredDemo.APITGetNonBddStyle -->
+      </class> <!-- PostRequest.ApiPost002 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
