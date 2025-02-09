@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PostRequest.ApiPost002">
+      <class name="IntegrationScenario.Api011_FirstIntegrationSceneraio">
         <methods>
-          <include name="New_PostReqNonBDD"/>
+          <include name="delete_Booking"/>
         </methods>
-      </class> <!-- PostRequest.ApiPost002 -->
+      </class> <!-- IntegrationScenario.Api011_FirstIntegrationSceneraio -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

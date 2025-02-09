@@ -19,15 +19,9 @@ public class Api001PostRequest {
 
 		String Payload = "{\n" + "    \"username\" : \"admin\",\n" + "    \"password\" : \"password123\"\n" + "}";
 
-		RestAssured.given()
-					.baseUri("https://restful-booker.herokuapp.com")
-					.basePath("/auth")
-					.contentType(ContentType.JSON)
-					.log().all()
-					.body(Payload)
-					.when().post()
-					.then().log().all()
-					.statusCode(201);
+		RestAssured.given().baseUri("https://restful-booker.herokuapp.com").basePath("/auth")
+				.contentType(ContentType.JSON).log().all().body(Payload).when().post().then().log().all()
+				.statusCode(200);
 	}
-	
+
 }
