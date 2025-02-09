@@ -2,14 +2,18 @@ package IntegrationScenario;
 
 import static org.testng.Assert.assertEquals;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import io.qameta.allure.testng.AllureTestNg;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 
+
+@Listeners({AllureTestNg.class}) 
 public class Api011_FirstIntegrationSceneraio {
 
 	// Create Token
