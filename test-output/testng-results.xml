@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-09T17:39:59 IST" name="Default suite" finished-at="2025-02-09T17:40:16 IST" duration-ms="17225">
+  <suite started-at="2025-02-15T18:39:37 IST" name="Default suite" finished-at="2025-02-15T18:39:38 IST" duration-ms="652">
     <groups>
     </groups>
-    <test started-at="2025-02-09T17:39:59 IST" name="Default test" finished-at="2025-02-09T17:40:16 IST" duration-ms="17225">
-      <class name="IntegrationScenario.Api011_FirstIntegrationSceneraio">
-        <test-method signature="update_put()[pri:1, instance:IntegrationScenario.Api011_FirstIntegrationSceneraio@4f3bbf68]" started-at="2025-02-09T17:39:59 IST" name="update_put" finished-at="2025-02-09T17:40:11 IST" duration-ms="11949" status="PASS">
+    <test started-at="2025-02-15T18:39:37 IST" name="Default test" finished-at="2025-02-15T18:39:38 IST" duration-ms="652">
+      <class name="Gson.SerializationObjectsToJson">
+        <test-method signature="ObjectsToJsonTest()[pri:0, instance:Gson.SerializationObjectsToJson@7164ca4c]" started-at="2025-02-15T18:39:37 IST" name="ObjectsToJsonTest" finished-at="2025-02-15T18:39:38 IST" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- update_put -->
-        <test-method signature="update_put_get()[pri:2, instance:IntegrationScenario.Api011_FirstIntegrationSceneraio@4f3bbf68]" started-at="2025-02-09T17:40:11 IST" name="update_put_get" finished-at="2025-02-09T17:40:12 IST" duration-ms="1511" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- update_put_get -->
-        <test-method signature="delete_Booking()[pri:3, instance:IntegrationScenario.Api011_FirstIntegrationSceneraio@4f3bbf68]" started-at="2025-02-09T17:40:12 IST" name="delete_Booking" finished-at="2025-02-09T17:40:14 IST" duration-ms="1565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delete_Booking -->
-        <test-method signature="get_After_Delete()[pri:4, instance:IntegrationScenario.Api011_FirstIntegrationSceneraio@4f3bbf68]" started-at="2025-02-09T17:40:14 IST" name="get_After_Delete" finished-at="2025-02-09T17:40:16 IST" duration-ms="1960" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- get_After_Delete -->
-      </class> <!-- IntegrationScenario.Api011_FirstIntegrationSceneraio -->
+        </test-method> <!-- ObjectsToJsonTest -->
+      </class> <!-- Gson.SerializationObjectsToJson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
